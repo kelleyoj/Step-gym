@@ -1,0 +1,124 @@
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Background styles */
+  background-image: url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.top h1 {
+  margin-top: 3em;
+  font-size: 72px;
+  color: white;
+  line-height: 1.1em;
+}
+
+.top button {
+  color: black;
+  background-color: orange;
+  border-color: orange;
+  font-size: 1.2em;
+  width: 20%;
+  padding: 2% 1% 2% 1%;
+  font-weight: 600;
+  margin-top: 4%;
+}
+
+.top button:hover {
+  opacity: 0.8;
+}
+
+.home-middle {
+  margin-top: 26%;
+  margin-bottom: 26%;
+}
+
+.membership {
+  font-size: 5em;
+  font-weight: 700;
+}
+.first-p {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.unlimited,
+.drop-in {
+  margin-top: 20%;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+.second-middle {
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1547226238-e53e98a8e59d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.second-middle h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.group {
+  padding: 15% 0 15% 0;
+}
+
+.learn-more {
+  padding-top: 2%;
+}
+.learn-more a {
+  color: orange;
+  border-bottom: 0.5px solid orange;
+  font-size: 0.9em;
+  letter-spacing: 1.5px;
+}
+
+.learn-more a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+  color: orange;
+}
+
+.quote {
+  padding-left: 0;
+  margin-top: 26%;
+  margin-bottom: 26%;
+}
+
+.quote h1 {
+  font-weight: 700;
+  font-size: 72px;
+  padding-right: 35%;
+}
+
+.quote p {
+  padding-top: 4%;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.home-trainer {
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1519311965067-36d3e5f33d39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.home-trainer h1 {
+  color: white;
+  padding-right: 60%;
+  font-size: 4em;
+  font-weight: bold;
+}

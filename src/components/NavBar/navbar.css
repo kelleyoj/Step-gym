@@ -1,0 +1,20 @@
+.main .burger-border {
+  border-color: white;
+}
+
+.burger {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.main .link-style {
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.main .link-style:hover {
+  text-decoration: none;
+  border-bottom: 2px solid orange;
+}

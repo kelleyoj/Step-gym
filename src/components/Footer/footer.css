@@ -1,0 +1,17 @@
+.footer {
+  background-color: #f6f6f6;
+}
+
+.footer .btn {
+  color: black;
+  background-color: orange;
+  border-color: orange;
+  font-size: 1.2em;
+  width: 50%;
+  padding: 2% 1% 2% 1%;
+  font-weight: 600;
+}
+
+.footer .btn:hover {
+  opacity: 0.8;
+}
