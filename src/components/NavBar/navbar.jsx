@@ -5,7 +5,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink
@@ -13,66 +12,111 @@ import {
 import "./navbar.css";
 
 class NavBar extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    isOpen: false
+  };
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
   render() {
     return (
-      <div className="main">
+      <div className="container main">
         <Navbar expand="md">
-          <NavbarBrand
-            style={{ color: "white", fontWeight: 600, fontSize: "1.8em" }}
-          >
+          <span className={this.props.state.isWhite ? "icon" : "icon-2"}>
             STEP
-          </NavbarBrand>
-          <NavbarToggler className="burger-border" onClick={this.toggle}>
-            <div className="burger" />
-            <div className="burger" />
-            <div className="burger" />
+          </span>
+          <NavbarToggler
+            style={{
+              color: this.props.state.background
+            }}
+            className={
+              this.props.state.isWhite ? "burger-border" : "burger-border-2"
+            }
+            onClick={this.toggle}
+          >
+            <div className={this.props.state.isWhite ? "burger" : "burger-2"} />
+            <div className={this.props.state.isWhite ? "burger" : "burger-2"} />
+            <div className={this.props.state.isWhite ? "burger" : "burger-2"} />
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto test" navbar>
+            <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink>
-                  <Link className="link-style" to="/">
+                  <Link
+                    id={this.props.state.onPage === "home" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/"
+                  >
                     Home
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink>
-                  <Link className="link-style" to="/about">
+                  <Link
+                    id={this.props.state.onPage === "join" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/join"
+                  >
+                    Join
+                  </Link>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink>
+                  <Link
+                    id={this.props.state.onPage === "about" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/about"
+                  >
                     About
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink>
-                  <Link className="link-style" to="/classes">
+                  <Link
+                    id={this.props.state.onPage === "classes" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/classes"
+                  >
                     Classes
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink>
-                  <Link className="link-style" to="/store">
+                  <Link
+                    id={this.props.state.onPage === "store" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/store"
+                  >
                     Store
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink>
-                  <Link className="link-style" to="/trainer">
+                  <Link
+                    id={this.props.state.onPage === "trainer" ? "onPage" : null}
+                    className={
+                      this.props.state.isWhite ? "link-style" : "link-style-2"
+                    }
+                    to="/trainer"
+                  >
                     Trainers
                   </Link>
                 </NavLink>

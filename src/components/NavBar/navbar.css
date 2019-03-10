@@ -1,11 +1,32 @@
+.main .icon {
+  color: white;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+.main .icon-2 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
 .main .burger-border {
   border-color: white;
+}
+
+.main .burger-border-2 {
+  border-color: black;
 }
 
 .burger {
   width: 35px;
   height: 3px;
   background-color: white;
+  margin: 6px 0;
+}
+.burger-2 {
+  width: 35px;
+  height: 3px;
+  background-color: black;
   margin: 6px 0;
 }
 
@@ -16,5 +37,19 @@
 }
 .main .link-style:hover {
   text-decoration: none;
+  border-bottom: 2px solid orange;
+}
+
+.main .link-style-2 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.main .link-style-2:hover {
+  text-decoration: none;
+  border-bottom: 2px solid orange;
+}
+
+#onPage {
   border-bottom: 2px solid orange;
 }

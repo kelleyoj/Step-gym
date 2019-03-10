@@ -1,0 +1,7 @@
+.custom-img img {
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid red;
+  height: 40vh;
+  width: 100%;
+}

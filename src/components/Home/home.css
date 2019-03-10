@@ -50,8 +50,8 @@
 .unlimited,
 .drop-in {
   margin-top: 20%;
-  font-size: 1.4em;
-  font-weight: bolder;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 .second-middle {
@@ -67,6 +67,7 @@
   color: white;
   font-size: 72px;
   font-weight: 700;
+  text-shadow: -1px 4px 0px rgba(4, 4, 4, 0.25);
 }
 
 .group {
@@ -81,6 +82,7 @@
   border-bottom: 0.5px solid orange;
   font-size: 0.9em;
   letter-spacing: 1.5px;
+  text-shadow: -1px 4px 0px rgba(4, 4, 4, 0.25);
 }
 
 .learn-more a:hover {
@@ -121,4 +123,5 @@
   padding-right: 60%;
   font-size: 4em;
   font-weight: bold;
+  text-shadow: -1px 4px 0px rgba(4, 4, 4, 0.25);
 }

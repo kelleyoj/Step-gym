@@ -1,0 +1,41 @@
+.join-middle {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.join {
+  font-size: 4.5em;
+  font-weight: 700;
+}
+.join-first-p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.join-unlimited,
+.join-drop-in {
+  margin-top: 20%;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.join-form {
+  margin-top: 5%;
+  letter-spacing: 1px;
+  font-size: 0.86em;
+}
+
+.join-form input {
+  background: #f6f6f6;
+}
+
+.join-form .form-btn {
+  border: 1px solid black;
+  color: black;
+  padding: 2% 6% 2% 6%;
+}
+
+.join-form .form-btn:hover {
+  color: white;
+  background-color: black;
+}
