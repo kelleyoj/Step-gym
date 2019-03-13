@@ -13,7 +13,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div className="app">
           <Route exact path="/" component={Home} />
           <Route path="/join" component={Join} />
