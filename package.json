@@ -2,7 +2,7 @@
   "name": "step-fitness",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kelleyoj.github.io/step-gym/",
+  "homepage": "https://kelleyoj.github.io/step-gym",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
