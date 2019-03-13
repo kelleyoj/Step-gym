@@ -1,19 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink
-} from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import "./navbar.css";
 
 class NavBar extends React.Component {
   state = {
-    isOpen: false
+    isOpen: false,
+    cartNumber: 0
   };
 
   toggle = () => {
@@ -23,7 +17,7 @@ class NavBar extends React.Component {
   };
   render() {
     return (
-      <div className="container main">
+      <div className=" main">
         <Navbar expand="md">
           <span className={this.props.state.isWhite ? "icon" : "icon-2"}>
             STEP
@@ -44,7 +38,7 @@ class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "home" ? "onPage" : null}
                     className={
@@ -54,10 +48,10 @@ class NavBar extends React.Component {
                   >
                     Home
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "join" ? "onPage" : null}
                     className={
@@ -67,10 +61,10 @@ class NavBar extends React.Component {
                   >
                     Join
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "about" ? "onPage" : null}
                     className={
@@ -80,10 +74,10 @@ class NavBar extends React.Component {
                   >
                     About
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "classes" ? "onPage" : null}
                     className={
@@ -93,23 +87,24 @@ class NavBar extends React.Component {
                   >
                     Classes
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "store" ? "onPage" : null}
                     className={
                       this.props.state.isWhite ? "link-style" : "link-style-2"
                     }
                     to="/store"
+                    onClick={this.props.showStore}
                   >
                     Store
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link
                     id={this.props.state.onPage === "trainer" ? "onPage" : null}
                     className={
@@ -119,15 +114,15 @@ class NavBar extends React.Component {
                   >
                     Trainers
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <span className="nav-link">
                   <Link style={{ color: "orange" }} to="/cart">
                     <FaShoppingCart />
                     (0)
                   </Link>
-                </NavLink>
+                </span>
               </NavItem>
             </Nav>
           </Collapse>

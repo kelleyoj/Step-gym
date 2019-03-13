@@ -1,0 +1,61 @@
+.item .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.item-main {
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.item-body img {
+  height: 20em;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right {
+  padding-right: 30%;
+}
+
+.right h2 {
+  margin-bottom: 15%;
+}
+
+.right span {
+  font-size: 1.3em;
+
+  color: orange;
+}
+
+.right ul {
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+.right .btn {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  width: 60%;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.item-form {
+  margin-top: 12%;
+}
+
+.item-form select {
+  border: 2px solid black;
+  height: 2.5em;
+  font-size: 1.2em;
+}
+
+.item-form input[type="number"] {
+  border: 2px solid black;
+  padding: 7%;
+  width: 50%;
+  font-size: 1.2em;
+}

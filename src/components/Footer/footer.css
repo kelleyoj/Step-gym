@@ -4,6 +4,11 @@
   background-color: #f6f6f6;
 }
 
+.footer .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .footer h1 {
   font-size: 4em;
   font-weight: bold;

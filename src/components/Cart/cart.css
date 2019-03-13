@@ -1,0 +1,51 @@
+.cart .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cart-main {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.cart-main h3 {
+  margin-bottom: 3%;
+}
+
+tr {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+th img {
+  width: 40%;
+  object-fit: scale-down;
+  height: 20%;
+}
+
+th input {
+  width: 18%;
+  text-align: center;
+}
+
+.cart tr .line-up {
+  padding-top: 6%;
+}
+
+.checkout {
+  text-align: right;
+}
+
+.checkout p {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.checkout .btn {
+  border: 1px solid black;
+}
+
+.checkout .btn:hover {
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,18 @@
+.class-list {
+  margin-top: 15%;
+}
+
+.space {
+  margin-bottom: 10%;
+}
+
+.class-list h4 {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.class-list h5 {
+  margin-top: 12%;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+}

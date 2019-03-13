@@ -9,14 +9,14 @@
 }
 .join-first-p {
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .join-unlimited,
 .join-drop-in {
   margin-top: 20%;
   font-size: 1.1em;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .join-form {
@@ -38,4 +38,9 @@
 .join-form .form-btn:hover {
   color: white;
   background-color: black;
+}
+
+.join-main .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
 }

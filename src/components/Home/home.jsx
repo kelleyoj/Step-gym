@@ -13,10 +13,10 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="home">
         <div className="hero">
-          <NavBar state={this.state} />
-          <div className="container">
+          <div className="container-fluid">
+            <NavBar state={this.state} />
             <div className="top">
               <h1>
                 Step fitness & <br /> Strength Training Studio
@@ -28,20 +28,20 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="home-middle">
-          <div className="container">
+        <div className="container-fluid">
+          <div className="home-middle">
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6 col-md-6 col-sm-1">
                 <h1 className="membership">Membership</h1>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6 col-md-6 col-sm-1">
                 <p className="first-p">
                   Join a fitness community that is passionate, determined, and
                   supportive. Whether you’re here for a day or committed to
                   years, we’ve got exactly what you need.
                 </p>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-lg-6 col-md-6 col-sm-1">
                     <div className="unlimited">
                       <p>Unlimited Memberships</p>
                       <p>
@@ -49,7 +49,7 @@ class Home extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-md-6 col-sm-1">
                     <div className="drop-in">
                       <p>Drop-in Classes</p>
                       <p>
@@ -65,19 +65,17 @@ class Home extends Component {
         </div>
 
         <div className="second-middle">
-          <div className="container">
-            <div className="group">
-              <h1>Group & Private Classes</h1>
-              <h5 className="learn-more">
-                <Link to="/class">
-                  LEARN MORE <FaArrowRight />
-                </Link>
-              </h5>
-            </div>
+          <div className="group">
+            <h1>Group & Private Classes</h1>
+            <h5 className="learn-more">
+              <Link to="/class">
+                LEARN MORE <FaArrowRight />
+              </Link>
+            </h5>
           </div>
         </div>
 
-        <div className="container">
+        <div className="container-fluid">
           <div className="quote">
             <h1>"There is nothing impossible to someone who will try."</h1>
             <p>
@@ -87,17 +85,16 @@ class Home extends Component {
         </div>
 
         <div className="home-trainer">
-          <div className="container">
-            <div className="group">
-              <h1>World-class Trainers</h1>
-              <h5 className="learn-more">
-                <Link to="/class">
-                  MEET THE TRAINERS <FaArrowRight />
-                </Link>
-              </h5>
-            </div>
+          <div className="group">
+            <h1>World-class Trainers</h1>
+            <h5 className="learn-more">
+              <Link to="/class">
+                MEET THE TRAINERS <FaArrowRight />
+              </Link>
+            </h5>
           </div>
         </div>
+
         <Footer />
       </div>
     );

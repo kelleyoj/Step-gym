@@ -20,15 +20,15 @@ class Join extends Component {
   };
   render() {
     return (
-      <div>
-        <NavBar state={this.state} />
-        <div className="join-middle">
-          <div className="container">
+      <div className="join-main">
+        <div className="container-fluid">
+          <NavBar state={this.state} />
+          <div className="join-middle">
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6 col-md-6 col-sm-12">
                 <h1 className="join">Join</h1>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6 col-md-6 col-sm-12">
                 <p className="join-first-p">
                   We at Heights welcome everyone, regardless of what level
                   they’re starting at. Here, it’s all about the individual’s
@@ -37,7 +37,7 @@ class Join extends Component {
                   today.
                 </p>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className="join-unlimited">
                       <p>Unlimited Memberships</p>
                       <p>
@@ -45,7 +45,7 @@ class Join extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className="join-drop-in">
                       <p>Drop-in Classes</p>
                       <p>
@@ -116,6 +116,7 @@ class Join extends Component {
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     );

@@ -5,3 +5,333 @@ html body {
 .app {
   overflow: hidden;
 }
+
+@media screen and (min-width: 300px) {
+  .footer {
+    padding-bottom: 5%;
+  }
+  .home .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top h1 {
+    padding-left: 0;
+    padding-right: 1rem;
+    font-size: 50px;
+    margin-top: 4em;
+  }
+  .top button {
+    margin-left: 0;
+    width: 40%;
+    margin-top: 8%;
+  }
+  .home-middle {
+    margin-top: 15%;
+    margin-bottom: 26%;
+  }
+  .first-p {
+    font-size: 1.3em;
+  }
+  .membership {
+    font-size: 3em;
+  }
+  .unlimited,
+  .drop-in {
+    margin-top: 8%;
+    font-size: 1.1em;
+  }
+  .group {
+    padding: 24% 1rem 15% 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .second-middle h1 {
+    font-size: 45px;
+  }
+  .quote h1 {
+    font-size: 30px;
+    padding-right: 0;
+  }
+  .home-trainer h1 {
+    padding-right: 0;
+    font-size: 2.5em;
+  }
+  .footer h1 {
+    font-size: 2.5em;
+  }
+  .footer .btn {
+    width: 40%;
+    font-size: 1em;
+    margin-left: 0;
+  }
+  .join-main .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .join {
+    font-size: 3em;
+  }
+  .join-first-p {
+    font-size: 1.3em;
+  }
+  .join-unlimited,
+  .join-drop-in {
+    margin-top: 6%;
+    font-size: 1.1em;
+  }
+  .join-middle {
+    margin-top: 10%;
+  }
+  .about .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about-unlimited,
+  .about-drop-in {
+    margin-top: 5%;
+  }
+  .class-list h5 {
+    margin-top: 6%;
+  }
+  .class-list {
+    margin-top: 7%;
+  }
+  .store .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .store-item {
+    margin-top: 2%;
+  }
+  .store-card {
+    margin-top: 10%;
+  }
+
+  .trainer .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cart .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cart-head h3 {
+    font-size: 1.3rem;
+  }
+  .cart tr .line-up {
+    padding-top: 14%;
+  }
+  .main .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .pad {
+    padding-bottom: 0;
+  }
+  .main a {
+    font-size: 1.3em;
+  }
+  .main .icon {
+    font-size: 2.5em;
+  }
+  .item .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .right {
+    padding-right: 20%;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .home .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .membership {
+    font-size: 3.5em;
+  }
+  .first-p {
+    font-size: 1.5em;
+  }
+  .unlimited,
+  .drop-in {
+    font-size: 1.3em;
+  }
+  .home-middle {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  .top h1 {
+    font-size: 75px;
+  }
+  .top button {
+    font-size: 1.5em;
+  }
+  .second-middle h1 {
+    font-size: 70px;
+  }
+  .quote h1 {
+    font-size: 70px;
+    padding-right: 0;
+  }
+  .home-trainer h1 {
+    font-size: 70px;
+  }
+  .footer h1 {
+    font-size: 50px;
+  }
+  .footer .btn {
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .join-main .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .join {
+    font-size: 70px;
+  }
+  .join-first-p {
+    font-size: 1.5em;
+  }
+  .join-unlimited,
+  .join-drop-in {
+    margin-top: 6%;
+    font-size: 1.3em;
+  }
+  .join-form {
+    font-size: 1.1em;
+  }
+  .about .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .class-list {
+    margin-top: 15%;
+  }
+  .store .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .item .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .trainer .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .img-thumbnail {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .top h1 {
+    margin-top: 5em;
+  }
+  .about-unlimited,
+  .about-drop-in {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .top h1 {
+    font-size: 70px;
+    margin-top: 3em;
+  }
+  .top button {
+    width: 23%;
+    margin-top: 4%;
+    padding: 1% 1% 1% 1%;
+  }
+  .membership {
+    font-size: 5em;
+  }
+  .first-p {
+    font-size: 1.8em;
+  }
+  .unlimited,
+  .drop-in {
+    font-size: 1.25em;
+  }
+  .group {
+    padding: 8% 100px 15% 100px;
+  }
+  .quote h1 {
+    font-size: 72px;
+    padding-right: 35%;
+  }
+  .home-trainer h1 {
+    padding-right: 60%;
+    font-size: 4em;
+  }
+  .join-main .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .join {
+    font-size: 4.5em;
+  }
+  .about .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .space {
+    margin-bottom: 5%;
+  }
+  .store .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .trainer .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .item .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .class-list {
+    margin-top: 7%;
+  }
+  .carousel-pics {
+    height: 60vh;
+  }
+
+  .carousel-pics img {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .class-list {
+    margin-top: 10%;
+  }
+  .trainer-body h5 {
+    font-size: 1.5em;
+  }
+  .trainer-body p {
+    margin-bottom: 2rem;
+    font-size: 1.2em;
+  }
+  .margin {
+    margin-top: 7%;
+  }
+  .right h2 {
+    margin-bottom: 8%;
+    font-size: 3rem;
+  }
+  .right ul {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .item-form {
+    margin-top: 8%;
+  }
+}

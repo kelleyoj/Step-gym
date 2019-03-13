@@ -1,0 +1,62 @@
+.store .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.store-card {
+  position: relative;
+  width: 100%;
+  padding-top: 2%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.8;
+}
+
+.store-card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  letter-spacing: 1px;
+}
+
+.store-price {
+  font-size: 0.8em;
+  color: orange;
+}
+
+.store-item {
+  margin-top: 13%;
+  margin-bottom: 10%;
+}
+
+.pad {
+  padding-bottom: 30px;
+}
