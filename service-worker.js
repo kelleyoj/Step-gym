@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/step-gym/precache-manifest.e9e71e07f25ad6dcbad811c46e36b1d5.js"
+  "/step-gym/precache-manifest.5c67529212b4516d1c9a9f080401395b.js"
 );
 
 workbox.clientsClaim();
