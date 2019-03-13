@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/step-gym/static/css/2.0876fdb2.chunk.css"
   },
   {
-    "revision": "fa7b2c98cb11486a096f09258cb63fc7",
+    "revision": "f24e0d5dcdf40bf2bf72e57088d7ba55",
     "url": "/step-gym/index.html"
   }
 ];
