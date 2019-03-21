@@ -7,6 +7,12 @@ html body {
 }
 
 @media screen and (min-width: 300px) {
+  .hero,
+  .second-middle,
+  .home-trainer {
+    background-attachment: scroll;
+  }
+
   .footer {
     padding-bottom: 5%;
   }
